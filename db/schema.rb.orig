@@ -11,7 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< fa5f6fba06887fb6e9f9e74653a8e1a4a52cb33f
 ActiveRecord::Schema.define(version: 20160618041744) do
+=======
+ActiveRecord::Schema.define(version: 20160618170705) do
+>>>>>>> Install Devise and generate Devise for User. Install Devise views
 
   create_table "bookmarks", force: :cascade do |t|
     t.string   "title"
